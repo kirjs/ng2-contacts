@@ -1,0 +1,5 @@
+<kirjs-contact *ng-for="#contact of contacts"
+               [info]=contact
+               (click)="selectContact(contact)"
+               [ng-class]="contact == selectedContact() ? 'selected' : ''">
+</kirjs-contact >

@@ -1,0 +1,19 @@
+
+.image {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #999;
+    background-color: #444444;
+    float: left;
+    margin-right: 10px;
+}
+
+div {
+    height: 30px;
+}
+
+span {
+    line-height: 30px;
+    vertical-align: top;
+}
+

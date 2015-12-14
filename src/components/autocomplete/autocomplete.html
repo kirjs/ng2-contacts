@@ -1,0 +1,7 @@
+<input (keydown) = "updateSuggestions($event)">
+<div>
+    <div *ng-for="#suggestion of suggestions; #i = index">
+        <div [class] = "i === selectedSuggestion ? 'selected' : ''">{{suggestion.text}}</div>
+
+    </div>
+</div>
